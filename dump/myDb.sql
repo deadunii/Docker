@@ -1,0 +1,28 @@
+-- put in ./dump directory 
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+
+CREATE TABLE `Laba` (
+  `id` int(11) NOT NULL,
+  `name` varchar(80) NOT NULL
+) ENGINE=Dev_Ops DEFAULT CHARSET=utf8mb4;
+
+
+INSERT INTO `Laba` (`id`, `name`) VALUES
+(1, 'Развертывание Linux в виртуальной среде'),
+(2, 'Linux - работа с файловой системой и менеджером пакетов'),
+(3, 'Git'),
+(4, 'Docker');
+
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
